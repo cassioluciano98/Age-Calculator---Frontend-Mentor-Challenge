@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+
+  <main>
+
+    <form>
+
+      <div class="campos">
+
+        <div>
+          <label for="day">Day</label>
+          <br>
+          <input type="text" id="day" placeholder="DD" maxlength="2">
+
+         <p class="required">This Field is required</p> 
+         <br>
+          <p class="must-be-valid">Must be a valid day</p>
+        </div> 
+
+      
+
+        <div>
+          <label for="month">Month</label>
+          <br>
+          <input type="text" id="month" placeholder="MM" maxlength="2">
+
+          <p class="required">This Field is required</p>
+          <br>
+          <p class="must-be-valid">Must be a valid month</p>
+        </div>
+
+      
+
+        <div>
+          <label for="year">Year</label>
+          <br>
+          <input type="text" id="year" placeholder="YYYY" maxlength="4">
+
+          <p class="required">This Field is required</p>
+          <br>
+          <p class="must-be-valid">Must be a valid year</p>
+        </div>
+
+      </div>
+
+        <hr>
+
+      <button type="submit" id="botao">
+        <img src="assets/images/icon-arrow.svg" alt="Icon Arrow">
+      </button>
+    </form>
+
+
+    <p class="result"><span>--</span> years</p>
+    <p class="result"><span>--</span> months</p>
+    <p class="result"><span>--</span> days</p>
+
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/cassioluciano98" target="_blank">Cássio Guimarães</a>.
+  </div>
+</body>
+</html>
